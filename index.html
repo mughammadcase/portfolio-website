@@ -11,20 +11,40 @@
     <title>Mughammad Case | Developer Portfolio</title>
 
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav><!-- Navigation -->></nav>
+    <header class="header">
+      <nav class="nav">
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience-and-education">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </div>
+      </nav>
     </header>
     <main>
-      <section id="hero"><!-- Hero -->></section>
+      <section id="about"><!-- About --></section>
 
-      <section id="about"><!-- About -->></section>
+      <section id="projects"><!-- Projects --></section>
 
-      <section id="skills"><!-- Skills -->></section>
+      <section id="skills"><!-- Skills --></section>
+
+      <section id="experience-and-education">
+        <!-- Experience & Education -->
+      </section>
+
+      <section id="contact"><!-- Contact --></section>
     </main>
 
-    <footer><!-- Footer -->></footer>
+    <footer><!-- Footer --></footer>
 
     <script type="module" src="./js/main.js"></script>
   </body>
