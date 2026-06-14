@@ -351,6 +351,23 @@ body.dark-theme .about-image img {
   line-height: 1.5;
 }
 
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-technologies span {
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+
+  background: var(--glass-background);
+  border: 1px solid var(--glass-border);
+
+  font-size: 0.8rem;
+}
+
 @media (max-width: 699px) {
   .projects-grid {
     grid-template-columns: 1fr;
