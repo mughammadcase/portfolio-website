@@ -1,6 +1,8 @@
 /**
+ * Initializes mobile navigation functionality.
  *
- * @returns
+ * Toggles the mobile menu when the menu button is clicked
+ * and automatically closes the menu when a navigation link is selected.
  */
 export function initNavigation() {
   const menuButton = document.querySelector(".menu-toggle");

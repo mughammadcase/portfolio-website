@@ -1,6 +1,8 @@
 /**
+ * Initializes theme management for the portfolio.
  *
- * @returns
+ * Loads the user's saved theme preference from localStorage,
+ * applies the corresponding theme on page load, and handles theme switching when the toggle button is clicked.
  */
 export function initTheme() {
   const button = document.querySelector(".theme-toggle");
