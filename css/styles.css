@@ -103,6 +103,38 @@ a {
   }
 }
 
+/* Mobile Menu Styling */
+
+.mobile-menu {
+  display: none;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 1rem auto 0;
+  padding: 1rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 1.5rem;
+
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 0.75rem 0;
+  color: #4d4d4f;
+}
+
+.mobile-menu.active {
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
 /* About Section Styling */
 
 .about {
